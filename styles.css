@@ -21,7 +21,7 @@ nav{
     
 }
 
-.menuTitle{
+#menu-title{
     position: absolute;
     left: 50px;
     top: 28px;
@@ -32,8 +32,7 @@ ul{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
-    
+    justify-content: flex-end;    
     
     list-style-type: none;
     background-color: transparent;
@@ -91,12 +90,9 @@ li .dropdown{
 .dropdown-portfolio:hover .dropdown-portfolio-content{
     display: block;
 }
-.dropdown-portfolio {
-    
-}
 
 .custom-hr {
-    width: 100%
+    width: 100%;
     font-size: 1px;
     color: rgba(0, 0, 0, 0);
     line-height: 1px;
